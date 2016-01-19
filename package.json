@@ -1,0 +1,15 @@
+{
+  "name": "socketio-mediasource",
+  "version": "0.0.1",
+  "description": "socketio-mediasource",
+  "scripts": {
+    "build": "browserify client.js -o public/bundle.js",
+    "dev": "npm run build && node server"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mediasource": "^1.0.0",
+    "socket.io": "^1.3.7",
+    "socket.io-stream": "^0.9.0"
+  }
+}
